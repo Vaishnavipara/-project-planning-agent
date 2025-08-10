@@ -8,8 +8,8 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 try:
     response = client.models.list()
-    print("✅ API key works! Available models:")
+    print("API key works! Available models:")
     for model in response.data:
         print("-", model.id)
 except Exception as e:
-    print("❌ API key test failed:", e)
+    print(" API key test failed:", e)
