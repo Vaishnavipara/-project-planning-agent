@@ -1,0 +1,16 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folders (if any)
+venv/
+env/
+.venv/
+
+# Ignore dotenv file that contains your API keys
+.env
+
+# Ignore other common files you might want to exclude
+*.log
+*.sqlite3
+.DS_Store
