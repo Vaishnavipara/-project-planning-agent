@@ -1,48 +1,42 @@
 # Project Planning & Breakdown Agent
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
-![OpenAI](https://img.shields.io/badge/OpenAI-API-v1.0+-green?logo=openai)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+<div align="center">
+  <img src="https://img.shields.io/badge/python-3.8%2B-blue?style=flat-square&logo=python">
+  <img src="https://img.shields.io/badge/openai-gpt3.5-green?style=flat-square&logo=openai">
+  <img src="https://img.shields.io/badge/license-MIT-yellow?style=flat-square">
+</div>
 
-An intelligent agent that transforms project goals into structured development plans with phases, tasks, and required roles using OpenAI's API.
+## Overview
 
-## ✨ Features
+A professional-grade project planning tool that leverages OpenAI's API to transform project goals into structured development plans with clearly defined phases, tasks, and required roles.
 
-- Converts natural language goals into actionable project plans
-- Generates JSON-structured output with:
-  - Development phases
-  - Key tasks (2-3 per phase)
-  - Recommended roles/skillsets
-- Robust error handling for API limitations
-- Clean, production-ready Python implementation
+## Key Features
 
-## 🛠️ Tools & Technologies
+- **Structured Output**: Generates clean JSON with phases, tasks, and roles
+- **Error Resilient**: Comprehensive handling of API limitations
+- **Production Ready**: Follows Python best practices
+- **Secure**: Proper API key management
 
-- **Python 3.8+** (Core implementation)
-- **OpenAI API** (GPT-3.5-turbo model)
-- **python-dotenv** (Secure credential management)
-- **JSON** (Structured output format)
+## Technical Implementation
 
-## 🚀 Getting Started
+| Component       | Technology           |
+|----------------|---------------------|
+| Language       | Python 3.8+         |
+| AI Engine      | OpenAI GPT-3.5-turbo|
+| Configuration  | python-dotenv       |
+| Output Format  | JSON                |
 
-### Prerequisites
-- OpenAI API key (Get yours at [platform.openai.com](https://platform.openai.com))
-- Python 3.8+ installed
+## Installation
 
-### Installation
 ```bash
 # Clone repository
 git clone https://github.com/yourusername/project-breakdown-agent.git
 cd project-breakdown-agent
 
-# Create virtual environment
+# Set up virtual environment
 python -m venv venv
-
-# Activate environment
-# Windows:
-venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
+source venv/bin/activate  # Linux/MacOS
+venv\Scripts\activate    # Windows
 
 # Install dependencies
 pip install -r requirements.txt
